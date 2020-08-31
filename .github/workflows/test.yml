@@ -17,6 +17,7 @@ jobs:
     env:
       "ADAPT_AUTHORING_ASSETS__maxFileUploadSize": 1
       "ADAPT_AUTHORING_AUTH__tokenSecret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      "ADAPT_AUTHORING_CORE__rootDir": $GITHUB_WORKSPACE
       "ADAPT_AUTHORING_CORE__tempDir": $GITHUB_WORKSPACE
       "ADAPT_AUTHORING_DOCS__output_dir": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
       "ADAPT_AUTHORING_MONGODB__host": "localhost"
