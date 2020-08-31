@@ -18,7 +18,7 @@ jobs:
       "adapt-authoring-assets.maxFileUploadSize": 1
       "adapt-authoring-auth.tokenSecret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
       "adapt-authoring-core.rootDir": $GITHUB_WORKSPACE
-      "adapt-authoring-core.tempDir": ${{ format('{0}/temp', GITHUB_WORKSPACE) }}
+      "adapt-authoring-core.tempDir": ${{ format('{0}/temp', $GITHUB_WORKSPACE) }}
       "adapt-authoring-docs.output_dir": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
       "adapt-authoring-mongodb.host": "localhost"
       "adapt-authoring-mongodb.port": 27017
