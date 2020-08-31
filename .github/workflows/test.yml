@@ -15,7 +15,6 @@ jobs:
         node-version: [14.x]
         mongodb-version: [4.2]
     env:
-      "ADAPT_AUTHORING_ASSETS__maxFileUploadSize": 1
       "ADAPT_AUTHORING_AUTH__tokenSecret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
       "ADAPT_AUTHORING_CORE__rootDir": $GITHUB_WORKSPACE
       "ADAPT_AUTHORING_CORE__tempDir": $GITHUB_WORKSPACE
