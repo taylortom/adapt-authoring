@@ -14,6 +14,19 @@ jobs:
       matrix:
         node-version: [14.x]
         mongodb-version: [4.2]
+    env:
+      "adapt-authoring-assets.maxFileUploadSize": 1
+      "adapt-authoring-auth.tokenSecret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      "adapt-authoring-core.rootDir": ${{ GITHUB_WORKSPACE }}
+      "adapt-authoring-core.tempDir": ${{ format('{0}/temp', GITHUB_WORKSPACE) }}
+      "adapt-authoring-docs.output_dir": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      "adapt-authoring-mongodb.host": "localhost"
+      "adapt-authoring-mongodb.port": 27017
+      "adapt-authoring-mongodb.dbname": "test"
+      "adapt-authoring-server.host": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      "adapt-authoring-server.port": 5678
+      "adapt-authoring-server.url": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      "adapt-authoring-sessions.secret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
     steps:
     - name: Git checkout
