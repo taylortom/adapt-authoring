@@ -24,8 +24,9 @@
     "adapt-authoring-jsonschema": "github:adapt-security/adapt-authoring-jsonschema",
     "adapt-authoring-lang": "github:adapt-security/adapt-authoring-lang",
     "adapt-authoring-langpack-en": "github:adapt-security/adapt-authoring-langpack-en",
-    "adapt-authoring-localauth": "github:adapt-security/adapt-authoring-localauth",
+    "adapt-authoring-localauth": "github:adapt-security/adapt-authoring-localauth#azure",
     "adapt-authoring-logger": "github:adapt-security/adapt-authoring-logger",
+    "adapt-authoring-logsui": "github:taylortom/adapt-authoring-logsui",
     "adapt-authoring-mailer": "github:adapt-security/adapt-authoring-mailer",
     "adapt-authoring-middleware": "github:adapt-security/adapt-authoring-middleware",
     "adapt-authoring-mongodb": "github:adapt-security/adapt-authoring-mongodb",
@@ -35,7 +36,8 @@
     "adapt-authoring-sessions": "github:adapt-security/adapt-authoring-sessions",
     "adapt-authoring-tags": "github:adapt-security/adapt-authoring-tags",
     "adapt-authoring-ui": "github:adapt-security/adapt-authoring-ui",
-    "adapt-authoring-users": "github:adapt-security/adapt-authoring-users"
+    "adapt-authoring-users": "github:adapt-security/adapt-authoring-users",
+    "adapt-authoring-websitebuild": "github:taylortom/adapt-authoring-websitebuild"
   },
   "devDependencies": {
     "adapt-authoring-docs": "github:adapt-security/adapt-authoring-docs",
